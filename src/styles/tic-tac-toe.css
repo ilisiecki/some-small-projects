@@ -1,0 +1,91 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  place-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.scoreboard,
+.title {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 17rem;
+  font-size: 1.5rem;
+  background-color: white;
+  margin: 3rem auto;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.reset-button {
+  margin-top: 0;
+}
+
+.reset-button:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 15px -3px, rgba(0, 0, 0, 0.25) 0px 4px 6px -2px;
+}
+.square-button:hover {
+  cursor: pointer;
+}
+
+.title {
+  margin-bottom: -1.8rem;
+  background-color: #3f3f3f;
+  color: white;
+  padding: 1.1rem 0rem 1.1rem 0rem;
+}
+
+.score {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.scoreboard-x {
+  color: rgb(255, 70, 37);
+  border-bottom: 5px solid rgb(255, 70, 37);
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.scoreboard-o {
+  color: rgb(44, 135, 255);
+  border-bottom: 5px solid rgb(44, 135, 255);
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+.inactive {
+  border-bottom: 5px solid transparent;
+}
+
+.square-x,
+.square-o {
+  background-color: white;
+  border: none;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Fredoka One", sans-serif;
+  font-weight: 500;
+  line-height: 5rem;
+  color: rgb(255, 70, 37);
+}
+
+.square-o {
+  color: rgb(44, 135, 255);
+}
+
+.square-x:hover,
+.square-o:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 15px -3px, rgba(0, 0, 0, 0.25) 0px 4px 6px -2px;
+}
