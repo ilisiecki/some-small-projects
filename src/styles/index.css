@@ -8,3 +8,82 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #3f3f3f;
 }
+
+.center-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-style {
+  text-decoration: none;
+  height: 10vh;
+  font-size: x-large;
+  font-weight: 600;
+  gap: 5rem;
+  color: #3f3f3f;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #6f6f6f;
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+  color: rgb(250, 165, 6);
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  color: rgb(44, 207, 207);
+  text-decoration: none;
+}
+
+.title-pages {
+  font-weight: 600;
+  font-size: xx-large;
+  color: #3f3f3f;
+}
+
+.center {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttons {
+  font-family: "Montserrat", sans-serif;
+  height: 5rem;
+  font-size: 1.5rem;
+  background-color: #3f3f3f;
+  margin: 3rem auto;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border: none;
+  color: #fff;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 15px -3px, rgba(0, 0, 0, 0.25) 0px 4px 6px -2px;
+}

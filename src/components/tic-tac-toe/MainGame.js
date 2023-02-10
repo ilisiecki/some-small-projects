@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../../styles/tic-tac-toe.css";
 import "../../styles/index.css";
-import { ResetGame } from "./ResetGame";
+import { ResetGame } from "./ResetGame.js";
 import { Scoreboard } from "./Scoreboard.js";
 import { Square } from "./Square.js";
 
@@ -110,6 +110,7 @@ export const MainGame = () => {
 
   return (
     <>
+      <div className="center-rps title-rps">Tic Tac Toe Game</div>;
       <Scoreboard score={score} xIsNext={xIsNext} />
       <div className="board">
         <Square squareValue={squares[0]} onSquareClick={() => onSquareClick(0)} />
